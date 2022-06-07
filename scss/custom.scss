@@ -1,0 +1,74 @@
+$primary:#003abb;
+$secondary:#413E59;
+$font-family-sans-serif: 'Poppins';
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body{
+    background-image: url(/imgs/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-nav{
+    margin-right: 5rem;
+}
+
+h1{
+    font-size: 4rem;
+    color:black;
+}
+
+h3{
+    letter-spacing: 8px;
+    margin-left: 3px;
+}
+
+.blank{
+    height: 15vh;
+}
+
+.filter-primary{
+    filter: invert(10%) sepia(71%) saturate(7175%) hue-rotate(220deg) brightness(93%) contrast(102%);
+}
+
+.navbar-nav .nav-item .nav-link{
+    color:rgba(0, 0, 0, 0.646);
+    padding:1.5rem;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color:black;
+    font-weight: bold;
+}
+
+.btn-xl{
+    border-radius: 30px;
+    font-size:1.76rem;
+}
+
+.card-img-top{
+    height:18rem;
+}
+
+.blank2{
+    height:22vh;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.304);
+}
+
+.img-team{
+    object-fit: cover;
+    width: 25rem;
+    height:18rem;
+}
+
+.alert{
+    display:none;
+}
